@@ -7,7 +7,7 @@ def send_message(message):
     ws.close()
 
 while True:
-    message = input("Comando para mover (puede ser L, R, B, F): ")
+    message = input("Comando para mover (puede ser L, R, B o F): ")
     if message.lower() == 'salir':
         break
     send_message(message)
